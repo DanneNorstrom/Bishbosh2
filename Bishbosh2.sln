@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bishbosh2", "Bishbosh2\Bishbosh2.csproj", "{6D7D4966-5BC4-44C3-B473-C83A8BB4461C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2485C622-8A37-4C57-B9AA-401F44BACADF}"
+	ProjectSection(SolutionItems) = preProject
+		bb.css = bb.css
+		indexbb.html = indexbb.html
+		scriptbb.js = scriptbb.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D7D4966-5BC4-44C3-B473-C83A8BB4461C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D7D4966-5BC4-44C3-B473-C83A8BB4461C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D7D4966-5BC4-44C3-B473-C83A8BB4461C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D7D4966-5BC4-44C3-B473-C83A8BB4461C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23D83DB6-9687-4737-8DC1-03DA3E96317D}
+	EndGlobalSection
+EndGlobal

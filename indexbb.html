@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sv">
+	<head>
+		<title>indexpage</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" href="bb.css">
+
+	</head>
+
+	<header>
+	<h1>Bish-Bosh 2.0</h1>
+	</header>
+
+	<body>
+	<div>
+	<p>
+	<h4>Funktion:</h4>
+	Tal upp till n skrivs ut.<br>
+	Om uppräkningstalet är jämt delbart med inputtal 1 skrivs Bish ut.<br>
+	Om uppräkningstalet är jämt delbart med inputtal 2 skrivs Bosh ut.<br>
+	Om uppräkningstalet är jämt delbart med både inputtal 1 och inputtal 2 skrivs Bish-Bosh ut.<br>
+	Syftet med denna uppgift är att öva på javascript.
+	</p>
+	</div>
+
+	<form action="">
+  	<label for="label1">Ange tal 1 (Bish):</label><br>
+  	<input type="number" id="bish" name="t1" min="1"><br>
+  	<label for="label2">Ange tal 2 (Bosh):</label><br>
+  	<input type="number" id="bosh" name="t2" min="1"><br>
+	<label for="label3">Ange önskat antal iterationer:</label><br>
+  	<input type="number" id="iterationer" name="it" min="1"><br><br>
+	</form>
+
+	<button id="button1">Visa resultat</button>
+ 
+	<div id="output">
+	</div> 
+
+	<script src="scriptbb.js"></script> 
+  
+	</body>
+	<footer>
+	<p> © 2024-10-15 Daniel Norström</p>
+	</footer>
+</html>
